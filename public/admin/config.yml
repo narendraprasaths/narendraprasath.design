@@ -1,0 +1,156 @@
+backend:
+  name: git-gateway
+  branch: master
+local_backend: true
+media_folder: public/img
+public_folder: img
+collections:
+  - name: "home"
+    label: "Home"
+    files:
+      - label: "Home"
+        name: "home"
+        editor:
+          preview: false
+        file: "content/home.md"
+        fields:
+          - label: "Intro"
+            name: "intro"
+            widget: "object"
+            summary: "Intro of the site"
+            fields:
+              - { label: "Super Heading", name: "super_heading", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Background Text", name: "background_text", widget: "string" }
+
+          - label: "About"
+            name: "about"
+            widget: "object"
+            summary: "About Me"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "About 2", name: "about_2", widget: "markdown" }
+
+      - label: "Blogs"
+        name: "blogs"
+        editor:
+          preview: false
+        file: "content/blogs.md"
+        fields:
+          - { label: "Section Title", name: "section_title", widget: "string" }
+          - { label: "My Blog URL", name: "blog_url", widget: "string" }
+          - label: "blogs"
+            name: "Blogs"
+            widget: "list"
+            max: 5
+            min: 5
+            summary: "{{fields.title}} - {{fields.year}}"
+            fields:
+              - { label: "Show Image", name: "image", widget: "boolean", default: false }
+              - { label: "Image URL", name: "image_url", widget: "string", required: false }
+              - { label: "Title", name: "title", widget: "string", required: false }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - { label: "Year", name: "year", widget: "date", format: "YYYY" }
+              - { label: "Blog URL", name: "url", widget: "string", required: false }
+
+      - label: "Experience"
+        name: "experience"
+        editor:
+          preview: false
+        file: "content/experience.md"
+        fields:
+          - { label: "Section Title", name: "section_title", widget: "string" }
+          - label: "experience"
+            name: "Experience"
+            widget: "list"
+            max: 5
+            min: 5
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Is Education", name: "is_education", widget: "boolean", default: false, summary: "Enable this when its is a education experience" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Year", name: "year", widget: "string" }
+
+      - label: "Skills"
+        name: "skills"
+        editor:
+          preview: false
+        file: "content/skills.md"
+        fields:
+          - { label: "Section Title", name: "section_title", widget: "string" }
+          - label: "skills"
+            name: "Skills"
+            widget: "list"
+            summary: "{{fields.skill}}"
+            field: { label: "Skill", name: "skill", widget: "string" }
+
+      - label: "Projects"
+        name: "projects"
+        editor:
+          preview: false
+        max: 2
+        min: 2
+        file: "content/projects.md"
+        fields:
+          - { label: "Section Title", name: "section_title", widget: "string" }
+          - label: "projects"
+            name: "Projects"
+            widget: "list"
+            max: 2
+            min: 2
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Project URL", name: "url", widget: "string" }
+
+  - name: "settings"
+    label: "Settings"
+    files:
+      - label: "Site Meta"
+        name: "site_meta"
+        editor:
+          preview: false
+        file: "content/site_meta.md"
+        fields:
+          - { label: "Site Title", name: "site_title", widget: "string" }
+          - { label: "Head > Title", name: "head_title", widget: "string" }
+          - { label: "OG URL", name: "og_url", widget: "string" }
+          - { label: "OG Title", name: "og_title", widget: "string" }
+          - { label: "OG Description", name: "og_description", widget: "string" }
+          - { label: "OG Image", name: "og_image", widget: "string" }
+          - { label: "OG Twitter Card", name: "twitter_card", widget: "string", required: false }
+          - { label: "OG Twitter Site", name: "twitter_site", widget: "string", required: false }
+          - { label: "OG Twitter Creator", name: "twitter_creator", widget: "string", required: false }
+
+      - label: "Contact Details"
+        name: "contact_details"
+        editor:
+          preview: false
+        file: "content/contact_details.md"
+        fields:
+          - { label: "Email Address", name: "mail", widget: "string" }
+          - { label: "Contact Number", name: "phone", widget: "string" }
+          - { label: "Resume", name: "resume", widget: "string" }
+          - { label: "Facebook", name: "facebook", widget: "string" }
+          - { label: "LinkedIn", name: "linkedin", widget: "string" }
+          - { label: "Instagram", name: "instagram", widget: "string" }
+          - { label: "Github", name: "github", widget: "string", required: false }
+          - { label: "Behance", name: "behance", widget: "string", required: false }
+          - { label: "Dribbble", name: "dribbble", widget: "string", required: false }
+          - label: "Show in Get in Touch"
+            name: "show_in_get_in_touch"
+            widget: "select"
+            multiple: true
+            min: 1
+            max: 3
+            options:
+              - { label: "Facebook", value: "facebook" }
+              - { label: "LinkedIn", value: "linkedin" }
+              - { label: "Instagram", value: "instagram" }
+              - { label: "Github", value: "github" }
+              - { label: "Behance", value: "behance" }
+              - { label: "Dribbble", value: "dribbble" }
