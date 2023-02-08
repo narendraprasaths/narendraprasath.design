@@ -1,13 +1,13 @@
 ---
-mail: matheswaarans@gmail.com
-phone: "+919025923103"
-resume: https://tinyurl.com/matsresume
-facebook: https://facebook.com/matheswaaran
-linkedin: https://www.linkedin.com/in/matheswaaran
-instagram: https://instagram.com/matheswaaran
-github: https://github.com/matheswaaran
+mail: snarenbtechit@gmail.com
+phone: "+919043528782"
+resume: https://tinyurl.com/narenresume
+facebook: https://facebook.com/narendraprasaths
+linkedin: https://www.linkedin.com/in/narendraprasaths
+instagram: https://instagram.com/naren.design
+github: ""
+dribbble: https://dribbble.com/narendraprasath
 show_in_get_in_touch:
-  - github
   - linkedin
   - instagram
 ---
