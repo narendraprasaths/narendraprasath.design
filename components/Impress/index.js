@@ -1,7 +1,8 @@
-import {Impress, Step} from 'react-impressjs';
+import { Impress, Step } from "react-impressjs";
 import Steps from "../HomeSections";
 import React from "react";
 import ImpressContainer from "./ImpressContainer";
+import Hint from "./Hint";
 
 const HomeSections = () => {
   return (
@@ -9,7 +10,7 @@ const HomeSections = () => {
       <Impress
         fallbackMessage="Sorry, your device or browser couldn't support well."
         hintOn={false}
-        // hintMessage={<div className="absolute left-0 bottom-[100px]">Hint</div>}
+        hintMessage={<Hint />}
       >
         {Steps.map((step, i) => (
           <Step
@@ -26,8 +27,6 @@ const HomeSections = () => {
   );
 };
 
-export {
-  Impress
-};
+export { Impress };
 
 export default HomeSections;

@@ -17,6 +17,28 @@ const Header = (props) => {
 
       {/* eslint-disable-next-line @next/next/no-sync-scripts */}
       <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+      {attributes.google_analytics_tag && (
+        <>
+          {/* Google tag (gtag.js) */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${attributes.google_analytics_tag}`}
+          ></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${attributes.google_analytics_tag}', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
+        </>
+      )}
     </Head>
   );
 };

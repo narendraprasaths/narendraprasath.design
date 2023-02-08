@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import images from "../assets/images";
 import Image from "next/image";
-import {useTheme} from "next-themes";
+import { useTheme } from "next-themes";
 
 const shimmer = (w, h) => `
 	<svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -25,7 +25,7 @@ const toBase64 = (str) =>
     : window.btoa(str);
 
 const NextImage = (props) => {
-  const {theme} = useTheme();
+  const { theme } = useTheme();
 
   return (
     <Image
@@ -46,8 +46,7 @@ NextImage.defaultProps = {
   theme: "dark",
   alt: "Next default picture",
   className: "",
-  onClick: () => {
-  },
+  onClick: () => {},
   src: "placeholder",
   placeholder: "blur",
   external: false,

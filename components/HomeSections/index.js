@@ -3,9 +3,9 @@ import Intro from "./Intro";
 import About from "./About";
 import About2 from "./About2";
 import Section from "./Section";
-import BlogCard from "./BlogCard";
+import BlogCard from "../cards/BlogCard";
 import ProjectCard from "../cards/ProjectCard";
-import ExpirenceCard from "../cards/ExpirenceCard";
+import ExperienceCard from "../cards/ExpirenceCard";
 import Skills from "./Skills";
 import SayHello from "./SayHello";
 
@@ -23,24 +23,24 @@ const HomeSections = [
   {
     id: "intro",
     data: {
-      x: -1000,
-      y: -1500,
+      x: -3000,
+      y: -3000,
     },
     content: <Intro data={homeAttributes.intro} />,
   },
   {
     id: "about",
     data: {
-      x: -300,
-      y: -1500,
+      x: -2100,
+      y: -3000,
     },
     content: <About data={homeAttributes.about} />,
   },
   {
     id: "about-2",
     data: {
-      x: 350,
-      y: -1500,
+      x: -1450,
+      y: -3000,
       rotateZ: 90,
     },
     content: <About2 data={homeAttributes.about} />,
@@ -48,8 +48,8 @@ const HomeSections = [
   {
     id: "blog",
     data: {
-      x: -1000,
-      y: -400,
+      x: -2000,
+      y: -800,
       rotateZ: 0,
       scale: 6,
     },
@@ -65,40 +65,40 @@ const HomeSections = [
   {
     id: "blog-1",
     data: {
-      x: -1200,
-      y: 800,
+      x: -3450,
+      y: -700,
     },
     content: <BlogCard data={blogAttributes.Blogs[0]} />,
   },
   {
     id: "blog-2",
     data: {
-      x: -300,
-      y: 800,
+      x: -2550,
+      y: -700,
     },
     content: <BlogCard data={blogAttributes.Blogs[1]} />,
   },
   {
     id: "blog-3",
     data: {
-      x: 600,
-      y: 800,
+      x: -1650,
+      y: -700,
     },
     content: <BlogCard data={blogAttributes.Blogs[2]} />,
   },
   {
     id: "blog-4",
     data: {
-      x: 1500,
-      y: 800,
+      x: -750,
+      y: -700,
     },
     content: <BlogCard data={blogAttributes.Blogs[3]} />,
   },
   {
     id: "blog-5",
     data: {
-      x: 2400,
-      y: -200,
+      x: 150,
+      y: -1700,
     },
     content: (
       <BlogCard
@@ -110,8 +110,8 @@ const HomeSections = [
   {
     id: "experience",
     data: {
-      x: 6000,
-      y: 1700,
+      x: 3000,
+      y: 1250,
       rotateY: 180,
       scale: 6,
     },
@@ -127,53 +127,53 @@ const HomeSections = [
   {
     id: "experience-1",
     data: {
-      x: 6200,
-      y: 2900,
+      x: 4450,
+      y: 1300,
       rotateY: 180,
     },
-    content: <ExpirenceCard data={experienceAttributes.Experience[0]} />,
+    content: <ExperienceCard data={experienceAttributes.Experience[0]} />,
   },
   {
     id: "experience-2",
     data: {
-      x: 5300,
-      y: 2900,
+      x: 3500,
+      y: 1300,
       rotateY: 180,
     },
-    content: <ExpirenceCard data={experienceAttributes.Experience[1]} />,
+    content: <ExperienceCard data={experienceAttributes.Experience[1]} />,
   },
   {
     id: "experience-3",
     data: {
-      x: 4400,
-      y: 2900,
+      x: 2650,
+      y: 1300,
       rotateY: 180,
     },
-    content: <ExpirenceCard data={experienceAttributes.Experience[2]} />,
+    content: <ExperienceCard data={experienceAttributes.Experience[2]} />,
   },
   {
     id: "experience-4",
     data: {
-      x: 3500,
-      y: 2900,
+      x: 1500,
+      y: 1300,
       rotateY: 180,
     },
-    content: <ExpirenceCard data={experienceAttributes.Experience[3]} />,
+    content: <ExperienceCard data={experienceAttributes.Experience[3]} />,
   },
   {
     id: "experience-5",
     data: {
-      x: 3500,
-      y: 1700,
+      x: 1500,
+      y: 200,
       rotateY: 180,
     },
-    content: <ExpirenceCard data={experienceAttributes.Experience[4]} />,
+    content: <ExperienceCard data={experienceAttributes.Experience[4]} />,
   },
   {
     id: "skills",
     data: {
-      x: 1400,
-      y: 3700,
+      x: -400,
+      y: 1700,
       rotateY: 180,
       rotateZ: 90,
     },
@@ -183,7 +183,7 @@ const HomeSections = [
     id: "projects",
     data: {
       x: 2500,
-      y: 4500,
+      y: 3000,
       rotateY: 180,
       rotateZ: 180,
     },
@@ -198,7 +198,7 @@ const HomeSections = [
     id: "projects-1",
     data: {
       x: 3800,
-      y: 4500,
+      y: 3000,
       rotateY: 180,
       rotateZ: 180,
     },
@@ -217,8 +217,8 @@ const HomeSections = [
   {
     id: "say-hello",
     data: {
-      x: 5500,
-      y: 4900,
+      x: 6500,
+      y: 1900,
       rotateY: 180,
       rotateZ: 270,
     },

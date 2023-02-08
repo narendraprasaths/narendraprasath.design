@@ -11,8 +11,13 @@ const ImpressContainer = styled.div`
     -webkit-transition: opacity 1s;
   }
 
-  .hint, .mobile-hint {
-    display: none;
+  .mobile-hint {
+    position: absolute;
+    left: 20px;
+    bottom: 75px;
+    display: flex;
+    align-items: center;
+    font-family: Gilroy-Regular, sans-serif;
   }
 `;
 

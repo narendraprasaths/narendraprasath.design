@@ -1,6 +1,6 @@
 import React from "react";
 import NextImage from "../NextImage";
-import {Crop} from "styled-icons/feather"
+import { Crop } from "styled-icons/feather";
 
 const ProjectCard = (props) => {
   return (
@@ -10,11 +10,9 @@ const ProjectCard = (props) => {
           Projects
         </div>
       )}
-      <div
-        className="w-screen md:w-[70vw] lg:w-[40vw] font-gilroy-semibold text-highlight dark:text-white flex flex-col items-start justify-start relative"
-      >
+      <div className="w-[150vw] md:w-[70vw] lg:w-[40vw] font-gilroy-semibold text-highlight dark:text-white flex flex-col items-start justify-start relative">
         <div className="absolute right-[-250px] bottom-[-100px]">
-          <Crop className="text-secondary dark:text-primary h-[350px] w-[350px] opacity-20"/>
+          <Crop className="text-secondary dark:text-primary h-[350px] w-[350px] opacity-20" />
         </div>
         <div className="text-4xl">{props.data.title}</div>
         {props.data.image && (

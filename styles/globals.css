@@ -3,43 +3,43 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Gilroy-Bold';
-  src: url('../public/fonts/Gilroy-Bold.ttf');
+  font-family: "Gilroy-Bold";
+  src: url("../public/fonts/Gilroy-Bold.ttf");
 }
 
 @font-face {
-  font-family: 'Gilroy-BoldItalic';
-  src: url('../public/fonts/Gilroy-BoldItalic.ttf');
+  font-family: "Gilroy-BoldItalic";
+  src: url("../public/fonts/Gilroy-BoldItalic.ttf");
 }
 
 @font-face {
-  font-family: 'Gilroy-Medium';
-  src: url('../public/fonts/Gilroy-Medium.ttf');
+  font-family: "Gilroy-Medium";
+  src: url("../public/fonts/Gilroy-Medium.ttf");
 }
 
 @font-face {
-  font-family: 'Gilroy-MediumItalic';
-  src: url('../public/fonts/Gilroy-MediumItalic.ttf');
+  font-family: "Gilroy-MediumItalic";
+  src: url("../public/fonts/Gilroy-MediumItalic.ttf");
 }
 
 @font-face {
-  font-family: 'Gilroy-Regular';
-  src: url('../public/fonts/Gilroy-Regular.ttf');
+  font-family: "Gilroy-Regular";
+  src: url("../public/fonts/Gilroy-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Gilroy-RegularItalic';
-  src: url('../public/fonts/Gilroy-RegularItalic.ttf');
+  font-family: "Gilroy-RegularItalic";
+  src: url("../public/fonts/Gilroy-RegularItalic.ttf");
 }
 
 @font-face {
-  font-family: 'Gilroy-SemiBold';
-  src: url('../public/fonts/Gilroy-SemiBold.ttf');
+  font-family: "Gilroy-SemiBold";
+  src: url("../public/fonts/Gilroy-SemiBold.ttf");
 }
 
 @font-face {
-  font-family: 'Gilroy-SemiBoldItalic';
-  src: url('../public/fonts/Gilroy-SemiBoldItalic.ttf');
+  font-family: "Gilroy-SemiBoldItalic";
+  src: url("../public/fonts/Gilroy-SemiBoldItalic.ttf");
 }
 
 #__next {

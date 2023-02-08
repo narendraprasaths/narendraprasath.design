@@ -4,7 +4,7 @@ import { attributes as contactAttributes } from "../../content/contact_details.m
 
 const SayHello = (props) => {
   return (
-    <div className="w-[70vw] flex flex-col items-center justify-center text-highlight dark:text-white text-center">
+    <div className="w-[150vw] md:w-screen lg:w-[70vw] flex flex-col items-center justify-center text-highlight dark:text-white text-center">
       <div className="flex items-center justify-center mb-8">
         <span className="font-gilroy-bold text-4xl">Get in touch</span>
         <span className="animate-wave text-3xl ml-2">👋🏻</span>

@@ -118,6 +118,7 @@ collections:
         fields:
           - { label: "Site Title", name: "site_title", widget: "string" }
           - { label: "Head > Title", name: "head_title", widget: "string" }
+          - { label: "Google Analytics Tag", name: "google_analytics_tag", widget: "string", required: false }
           - { label: "OG URL", name: "og_url", widget: "string" }
           - { label: "OG Title", name: "og_title", widget: "string" }
           - { label: "OG Description", name: "og_description", widget: "string" }

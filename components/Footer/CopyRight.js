@@ -14,18 +14,18 @@ const CopyRight = (props) => {
       </div>
       <div>
         <span className="mr-1">Made with</span>
-        <Heart className="text-secondary dark:text-primary h-5 w-5" />
+        <Heart className="text-secondary dark:text-primary h-5 w-5 mx-1" />
         <span className="mx-1">by</span>
         <a
-          className="text-secondary dark:text-primary"
-          href="https://matheswaaran.com"
+          className="text-secondary dark:text-primary mx-1"
+          href="https://narendraprasath.design"
         >
-          Mat
+          Naren
         </a>
         <span className="mx-1">and</span>
         <a
-          className="text-secondary dark:text-primary"
-          href="https://narendraprasath.design"
+          className="text-secondary dark:text-primary mx-1"
+          href="https://matheswaaran.com"
         >
           Me
         </a>

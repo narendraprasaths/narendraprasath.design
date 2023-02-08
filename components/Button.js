@@ -42,8 +42,7 @@ const Button = (props) => {
 };
 
 Button.defaultProps = {
-  onClick: () => {
-  },
+  onClick: () => {},
   size: "small",
   to: "/",
   external: false,

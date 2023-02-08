@@ -1,9 +1,9 @@
 import React from "react";
-import {useTheme} from "next-themes";
-import {DarkTheme} from "styled-icons/fluentui-system-regular"
+import { useTheme } from "next-themes";
+import { DarkTheme } from "styled-icons/fluentui-system-regular";
 
 const ThemeToggle = (props) => {
-  const {theme, setTheme} = useTheme();
+  const { theme, setTheme } = useTheme();
 
   return (
     <DarkTheme

@@ -1,7 +1,5 @@
 import React from "react";
-import { Menu } from "styled-icons/heroicons-outline";
-import { Close } from "@styled-icons/material";
-
+import { Close, Menu } from "styled-icons/material";
 import Button from "../Button";
 import ThemeToggle from "./ThemeToggle";
 import SocialMediaProfiles from "./SocialMediaProfiles";
@@ -11,10 +9,18 @@ import { attributes as contactAttributes } from "../../content/contact_details.m
 
 const TopNavBar = (props) => {
   const [openMenu, setOpenMenu] = React.useState(false);
+
+  const goToHomeSection = () => {
+    window.location.href = "/#/intro";
+  };
+
   return (
-    <React.Fragment>
+    <header className="z-40">
       <div className="flex items-center justify-between border-grey dark:border-grey border-b px-4">
-        <span className="text-base font-gilroy-semibolditalic">
+        <span
+          className="text-base font-gilroy-semibold italic cursor-pointer"
+          onClick={goToHomeSection}
+        >
           {siteMetaAttributes.site_title}
         </span>
         <div className="flex items-center justify-end">
@@ -26,7 +32,7 @@ const TopNavBar = (props) => {
           <div className="border-grey dark:border-grey border-r border-l p-4">
             <ThemeToggle />
           </div>
-          <div className="border-grey dark:border-grey border-r p-4 space-x-2 hidden lg:block">
+          <div className="border-grey dark:border-grey border-r p-4 space-x-2 hidden lg:flex">
             <SocialMediaProfiles
               mail={contactAttributes.mail}
               phone={contactAttributes.phone}
@@ -54,7 +60,7 @@ const TopNavBar = (props) => {
         </div>
       </div>
       {openMenu && <Menus open={openMenu} setOpen={setOpenMenu} />}
-    </React.Fragment>
+    </header>
   );
 };
 

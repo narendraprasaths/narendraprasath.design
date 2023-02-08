@@ -1,6 +1,5 @@
 import React from "react";
 import { ThemeProvider } from "next-themes";
-
 import Header from "../components/Header";
 import TopNavBar from "../components/TopNavBar";
 import Footer from "../components/Footer";
@@ -12,15 +11,11 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
       <Header />
       <div className="flex flex-col h-screen">
-        <header>
-          <TopNavBar />
-        </header>
+        <TopNavBar />
         <main className="flex-grow">
           <Component {...pageProps} />
         </main>
-        <footer>
-          <Footer />
-        </footer>
+        <Footer />
       </div>
     </ThemeProvider>
   );
