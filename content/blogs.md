@@ -2,12 +2,12 @@
 section_title: Blog
 blog_url: https://matheswaaran.medium.com
 Blogs:
-  - image: false
+  - image: true
     year: "2023"
-    title: Read .docx files in React.js
-    description: This article discusses how to read a .docx file in React
-      applications using @xmldom/xmldom and pizzip.
-    url: https://matheswaaran.medium.com/read-docx-files-in-react-js-9d03ddb9fe7d
+    title: Responsive E-commerce
+    description: ""
+    url: ""
+    image_url: https://cdn.dribbble.com/users/2438149/screenshots/18079601/media/be79c50e27ce1566a4cda1c01fde69a8.gif
   - image: false
     year: "2022"
     title: Hasura Actions using Netlify Functions for Custom Logic
