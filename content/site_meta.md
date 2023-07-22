@@ -1,7 +1,7 @@
 ---
 site_title: Matheswaaran
 head_title: Home - matheswaaran.com
-google_analytics_tag: G-MJH6GGKBJY
+google_analytics_tag: ""
 og_url: https://matheswaaran.com
 og_title: All about Mat
 og_description: Things Mat(Me) has done so far 😁
