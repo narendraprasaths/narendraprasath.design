@@ -3,17 +3,18 @@ section_title: Blog
 blog_url: https://matheswaaran.medium.com
 Blogs:
   - image: false
-    year: "2022"
-    title: Convert HTML string to PDF in ReactJs
-    description: This article discusses how to convert a HTML string into a PDF
-      document in client side apps which uses ReactJs using jsPDF package.
-    url: https://matheswaaran.medium.com/convert-html-string-to-pdf-using-jspdf-in-reactjs-255aba2d76a2
+    year: "2023"
+    title: Read .docx files in React.js
+    description: This article discusses how to read a .docx file in React
+      applications using @xmldom/xmldom and pizzip.
+    url: https://matheswaaran.medium.com/read-docx-files-in-react-js-9d03ddb9fe7d
   - image: false
-    year: "2020"
-    title: Serving Apple App Site Association file using Nginx for React Apps
-    description: Serving the apple-app-site-association.json or
-      apple-app-site-association.applescript file through an Nginx server.
-    url: https://matheswaaran.medium.com/serving-apple-app-site-association-file-using-nginx-for-react-apps-89b2d48a9fa4
+    year: "2022"
+    title: Hasura Actions using Netlify Functions for Custom Logic
+    description: In this guide, we will show how to write your own Hasura actions
+      using Netlify functions (with your own custom business logic or a
+      third-party API integration).
+    url: https://hasura.io/blog/hasura-actions-using-netlify-functions-custom-logic/
   - image: false
     year: "2021"
     image_url: ""

@@ -2,9 +2,13 @@
 section_title: Experience
 Experience:
   - is_education: false
+    title: Independent Freelancer
+    description: Fullstack Developer
+    year: 2022 - Present
+  - is_education: false
     title: Testpress Tech Labs
     description: Senior Developer
-    year: 2021 - Present
+    year: 2021 - 2022
   - is_education: false
     title: NFN Labs
     description: Frontend Developer
@@ -17,8 +21,4 @@ Experience:
     title: Mahatma Montessori Matric. Hr. Sec. School
     description: Higher Secondary Schooling
     year: 2008 - 2014
-  - is_education: true
-    title: MAVMM Matric. Hr. Sec. School
-    description: Schooling
-    year: 2002 - 2008
 ---

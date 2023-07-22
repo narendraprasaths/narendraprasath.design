@@ -10,7 +10,7 @@ const About = (props) => {
       <p className="text-graySecondary dark:text-grey text-sm font-gilroy-medium mb-4">
         {props.data.title}
       </p>
-      <p className="text-dark dark:text-white text-4xl font-gilroy-semibold">
+      <p className="text-dark dark:text-white text-2xl leading-normal font-gilroy-semibold">
         {props.data.description}
       </p>
     </div>

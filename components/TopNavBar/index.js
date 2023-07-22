@@ -7,7 +7,7 @@ import Menus from "./Menus";
 import { attributes as siteMetaAttributes } from "../../content/site_meta.md";
 import { attributes as contactAttributes } from "../../content/contact_details.md";
 
-const TopNavBar = (props) => {
+const TopNavBar = () => {
   const [openMenu, setOpenMenu] = React.useState(false);
 
   const goToHomeSection = () => {
@@ -29,7 +29,7 @@ const TopNavBar = (props) => {
               Resume
             </Button>
           </div>
-          <div className="border-grey dark:border-grey border-r border-l p-4">
+          <div className="flex items-center border-grey dark:border-grey border-r border-l p-4">
             <ThemeToggle />
           </div>
           <div className="border-grey dark:border-grey border-r p-4 space-x-2 hidden lg:flex">

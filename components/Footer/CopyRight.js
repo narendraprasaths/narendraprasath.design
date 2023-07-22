@@ -10,9 +10,9 @@ const CopyRight = (props) => {
       } items-center text-sm font-gilroy-medium text-graySecondary dark:text-gray`}
     >
       <div className={props.isFooter ? "" : "mb-2"}>
-        Copyright © {new Date().getFullYear()}. All rights reserved
+        Copyright © {new Date().getFullYear()}. All rights reserved.
       </div>
-      <div>
+      <div className="ml-1 flex items-center">
         <span className="mr-1">Made with</span>
         <Heart className="text-secondary dark:text-primary h-5 w-5 mx-1" />
         <span className="mx-1">by</span>

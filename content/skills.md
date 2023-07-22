@@ -1,14 +1,14 @@
 ---
 section_title: Skills / Languages / Tools
 Skills:
-  - ReactJs & Redux
-  - HTML5, CSS3, Javascript, ES6
-  - React Native
-  - Node.js, RESTful API, GraphQL
-  - Hasura
-  - Nelify
-  - Firebase, AWS & GCP
+  - HTML5, CSS, Js
+  - React.js, Next.js
+  - Netlify
   - Git
-  - JIRA, Trello
-  - Figma
+  - Node.js
+  - Hasura
+  - REST APIs & GraphQL
+  - Firebase
+  - Postgres
+  - AWS services & GCP services
 ---
