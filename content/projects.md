@@ -3,7 +3,7 @@ section_title: Projects
 Projects:
   - title: Swish
     url: https://swishconnect.global
-    year: 2021 - Present
+    year: 2022 - Present
     description: A professional community app that gives you access to trends and
       insights, shared interest connections, productivity tools, and exclusive
       events.
