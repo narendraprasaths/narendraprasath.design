@@ -1,35 +1,35 @@
 ---
 section_title: Blog
-blog_url: https://matheswaaran.medium.com
+blog_url: https://twitter.com/SNarenPrasath
 Blogs:
-  - image: true
+  - image: false
     year: "2023"
+    title: Figma's new variables
+    description: ""
+    url: https://twitter.com/i/status/1674746700257214464
+    image_url: https://drive.google.com/file/d/1bmNgHdniJXVqEo_ix9yZdg8EgstNvKca/view?usp=sharing
+  - image: true
+    year: "2022"
     title: Responsive E-commerce
     description: ""
     url: ""
     image_url: https://cdn.dribbble.com/users/2438149/screenshots/18079601/media/be79c50e27ce1566a4cda1c01fde69a8.gif
   - image: false
-    year: "2022"
-    title: Hasura Actions using Netlify Functions for Custom Logic
-    description: In this guide, we will show how to write your own Hasura actions
-      using Netlify functions (with your own custom business logic or a
-      third-party API integration).
-    url: https://hasura.io/blog/hasura-actions-using-netlify-functions-custom-logic/
-  - image: false
     year: "2021"
-    image_url: ""
-    title: Image Compression in ReactJs
-    description: Compress your images before upload using the amazing tool called
-      "compressorjs"
-    url: https://medium.com/front-end-weekly/image-compression-in-reactjs-a07ec0066b24
+    image_url: https://cdn.dribbble.com/users/2438149/screenshots/17646018/media/d83cf4957393ae0ba09b858ce3153028.gif
+    title: Interface elements
+    description: ""
+    url: ""
   - image: false
     year: "2019"
-    title: How to Handle Multiple Environments in a React App
-    description: Set up your React app for environments beyond development and production.
-    url: https://betterprogramming.pub/managing-environments-for-provisional-builds-with-react-app-1fb411e3597
+    title: Toggle switch interaction
+    description: ""
+    url: ""
+    image_url: https://cdn.dribbble.com/users/2438149/screenshots/15999838/media/c590a14f6eebdc882f33f75d08a879d6.gif
   - image: false
     year: "2019"
-    title: Recording MP3 audio using ReactJs under 5 minutes
-    description: Recording an MP3 audio file in ReactJs using javascript in under 5 minutes.
-    url: https://medium.com/front-end-weekly/recording-audio-in-mp3-using-reactjs-under-5-minutes-5e960defaf10
+    title: Caring pills reminder
+    description: ""
+    url: ""
+    image_url: https://cdn.dribbble.com/users/2438149/screenshots/15947360/media/ad14984a2cc1bd68fe92dcab5a3d3a72.gif
 ---
