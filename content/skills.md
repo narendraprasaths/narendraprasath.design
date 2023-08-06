@@ -8,7 +8,7 @@ Skills:
   - After effects
   - Lottie
   - Jitter
-  - Spline 3D
+  - Spline & Unity 3D
   - Netlify
   - Git
 ---
