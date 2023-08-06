@@ -18,14 +18,14 @@ const CopyRight = (props) => {
         <span className="mx-1">by</span>
         <a
           className="text-secondary dark:text-primary mx-1"
-          href="https://narendraprasath.design"
+          href="https://matheswaaran.com/"
         >
-          Naren
+          Mat
         </a>
         <span className="mx-1">and</span>
         <a
           className="text-secondary dark:text-primary mx-1"
-          href="https://matheswaaran.com"
+          href="https://narendraprasath.com"
         >
           Me
         </a>
