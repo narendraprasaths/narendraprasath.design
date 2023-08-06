@@ -14,7 +14,7 @@ const TopNavBar = () => {
   };
 
   return (
-    <header className="z-40 backdrop-blur-sm">
+    <header className="z-40 backdrop-blur-[200px]">
       <div className="flex items-center justify-between border-grey dark:border-grey border-b px-4">
         <span
           className="text-base font-gilroy-semibold italic cursor-pointer"
@@ -28,7 +28,7 @@ const TopNavBar = () => {
               href={contactAttributes.resume}
               target="_blank"
               rel="noreferrer"
-              className="bg-lightGray dark:bg-black text-highlight dark:text-white px-4 py-2 rounded shadow-lg dark:shadow-none"
+              className="bg-lightGray dark:bg-black text-highlight dark:text-white px-4 py-2 rounded shadow-lg dark:shadow-none dark:hover:bg-primary hover:bg-secondary hover:text-white"
             >
               Resume
             </a>
