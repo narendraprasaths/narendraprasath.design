@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
     <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
       <Header />
       <div className="flex flex-col h-screen">
-        <div className="fixed inset-x-0 top-[-400px]">
+        <div className="fixed inset-x-0 top-[-375px] z-10">
           <NextImage src="background" alt="background gradient" />
         </div>
         <TopNavBar />
