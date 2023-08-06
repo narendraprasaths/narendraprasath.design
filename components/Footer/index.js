@@ -1,6 +1,6 @@
 import React from "react";
-import { Logout } from "styled-icons/material-outlined";
 import { ArrowLeft, ArrowRight } from "styled-icons/octicons";
+import { RefreshOutline } from "styled-icons/evaicons-outline";
 import CopyRight from "./CopyRight";
 import HomeSections from "../HomeSections";
 
@@ -33,11 +33,18 @@ const Footer = () => {
     window.location.href = `/#/${HomeSections[newIndex].id}`;
   };
 
+  const goToHomeSection = () => {
+    window.location.href = "/#/intro";
+  };
+
   return (
     <footer className="z-40">
       <div className="flex items-center justify-between border-grey dark:border-grey border-t">
-        <div className="flex items-center px-4 py-2 border-grey dark:border-grey border-r">
-          <Logout className="cursor-pointer text-highlight hover:text-secondary dark:text-white dark:hover:text-primary h-8 w-8 rotate-[270deg]" />
+        <div
+          className="flex items-center px-4 py-2 border-grey dark:border-grey border-r"
+          onClick={goToHomeSection}
+        >
+          <RefreshOutline className="cursor-pointer text-highlight hover:text-secondary dark:text-white dark:hover:text-primary h-8 w-8 rotate-[270deg]" />
         </div>
         <CopyRight isFooter={true} />
         <div className="flex items-center justify-end">

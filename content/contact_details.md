@@ -2,7 +2,7 @@
 mail: snarenbtechit@gmail.com
 phone: "+919043528782"
 resume: https://v2.narendraprasath.design/resume.pdf
-facebook: https://twitter.com/SNarenPrasath
+twitter: https://twitter.com/SNarenPrasath
 linkedin: https://www.linkedin.com/in/narendraprasaths/
 instagram: https://instagram.com/naren.design
 github: https://github.com/narendraprasaths
@@ -11,5 +11,5 @@ dribbble: https://dribbble.com/narendraprasath
 show_in_get_in_touch:
   - linkedin
   - dribbble
-  - facebook
+  - twitter
 ---

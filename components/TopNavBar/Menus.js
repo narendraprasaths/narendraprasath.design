@@ -4,6 +4,7 @@ import { attributes as contactAttributes } from "../../content/contact_details.m
 import Button from "../Button";
 import SocialMediaProfiles from "./SocialMediaProfiles";
 import CopyRight from "../Footer/CopyRight";
+import { Close } from "styled-icons/material";
 
 const Menus = (props) => {
   const changeRoute = (hash) => {
@@ -14,7 +15,13 @@ const Menus = (props) => {
   };
 
   return (
-    <div className="fixed inset-0 top-[57px] bg-white dark:bg-dark z-40 flex flex-col items-center justify-around">
+    <div className="fixed inset-0 bg-white dark:bg-dark z-40 flex flex-col items-center justify-around h-screen w-screen">
+      <div
+        className="fixed right-4 top-4 cursor-pointer"
+        onClick={() => props.setOpen(!props.open)}
+      >
+        <Close className="text-secondary dark:text-primary h-10 w-10" />
+      </div>
       <div className="mt-10">
         <div className="flex flex-col space-y-6 items-center justify-center text-highlight dark:text-white text-2xl font-semibold font-gilroy-semibold">
           <span

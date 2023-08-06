@@ -1,5 +1,5 @@
 import React from "react";
-import { Close, Menu } from "styled-icons/material";
+import { Menu } from "styled-icons/material";
 import ThemeToggle from "./ThemeToggle";
 import SocialMediaProfiles from "./SocialMediaProfiles";
 import Menus from "./Menus";
@@ -56,11 +56,7 @@ const TopNavBar = () => {
             <span className="text-base font-gilroy-medium text-highlight dark:text-white mr-4">
               Menu
             </span>
-            {openMenu ? (
-              <Close className="text-secondary dark:text-primary h-5 w-5" />
-            ) : (
-              <Menu className="text-secondary dark:text-primary h-5 w-5" />
-            )}
+            <Menu className="text-secondary dark:text-primary h-5 w-5" />
           </div>
         </div>
       </div>
