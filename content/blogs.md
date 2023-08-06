@@ -7,7 +7,7 @@ Blogs:
     title: Figma's new variables
     description: ""
     url: https://twitter.com/i/status/1674746700257214464
-    image_url: https://drive.google.com/file/d/1w5RhGxi_ju7QWytLhpKNEsMPmFczCYZu/view?usp=sharing
+    image_url: https://lh3.googleusercontent.com/u/0/drive-viewer/AITFw-xB1WPNNFNQ5Ba17-sxlp6gnBDopNF8UcZszzCEb81N5maRdiu9u23e0gvt_Z_CcSwjWN_y-g7EWQk1xtTNOUUtTt3PGw=w1920-h938
   - image: true
     year: "2022"
     title: Responsive E-commerce
