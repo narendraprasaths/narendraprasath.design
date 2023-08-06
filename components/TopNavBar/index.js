@@ -1,6 +1,5 @@
 import React from "react";
 import { Close, Menu } from "styled-icons/material";
-import Button from "../Button";
 import ThemeToggle from "./ThemeToggle";
 import SocialMediaProfiles from "./SocialMediaProfiles";
 import Menus from "./Menus";
@@ -15,7 +14,7 @@ const TopNavBar = () => {
   };
 
   return (
-    <header className="z-40">
+    <header className="z-40 backdrop-blur-sm">
       <div className="flex items-center justify-between border-grey dark:border-grey border-b px-4">
         <span
           className="text-base font-gilroy-semibold italic cursor-pointer"
@@ -25,9 +24,14 @@ const TopNavBar = () => {
         </span>
         <div className="flex items-center justify-end">
           <div className="pr-4 py-2 hidden lg:block">
-            <Button to={contactAttributes.resume} external={true}>
+            <a
+              href={contactAttributes.resume}
+              target="_blank"
+              rel="noreferrer"
+              className="bg-lightGray dark:bg-black text-highlight dark:text-white px-4 py-2 rounded shadow-lg dark:shadow-none"
+            >
               Resume
-            </Button>
+            </a>
           </div>
           <div className="flex items-center border-grey dark:border-grey border-r border-l p-4">
             <ThemeToggle />
@@ -38,6 +42,7 @@ const TopNavBar = () => {
               phone={contactAttributes.phone}
               facebook={contactAttributes.facebook}
               linkedin={contactAttributes.linkedin}
+              twitter={contactAttributes.twitter}
               instagram={contactAttributes.instagram}
               github={contactAttributes.github}
               dribbble={contactAttributes.dribbble}

@@ -7,6 +7,10 @@ const images = {
     light: require("./img/hand_wave.svg"),
     dark: require("./img/hand_wave.svg"),
   },
+  background: {
+    light: require("./img/bgGradient.png"),
+    dark: require("./img/bgGradient.png"),
+  },
 };
 
 export default images;
