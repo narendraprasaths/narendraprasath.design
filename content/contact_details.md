@@ -1,7 +1,7 @@
 ---
 mail: snarenbtechit@gmail.com
 phone: "+919043528782"
-resume: https://matheswaaran.com/resume.pdf
+resume: https://narendraprasath.design/resume.pdf
 facebook: https://twitter.com/SNarenPrasath
 linkedin: https://www.linkedin.com/in/narendraprasaths/
 instagram: https://instagram.com/naren.design
